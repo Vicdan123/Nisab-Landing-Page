@@ -1,0 +1,69 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+
+        }
+        .box {
+            height: 200;
+            width: 200;
+            background-color: gray;
+            /* float left; */
+             margin-left; 20px;
+             margin-top: 20px;
+
+        }
+        .tem {
+            display: inline;
+            /* padding: 10px; */
+        }
+         .container {
+            /* display: flex; */
+            display: grid;
+            /* grid-template-rows: 1fr 1fr 1fr;*/
+            /* grid-template-columns: 1fr 1fr; */
+            /* grid-template-columns: 1fr 1fr 1fr 5fr;*/
+            /* grid-template-columns: repeat(4 1fr); */
+            /*flex-direction: row; */
+            /*flex-direction: row-reverse; */
+            flex-direction: column;
+            flex-direction: column-reverse;
+            justify-content: center;
+            justify-content: flex-end;
+            justify-content: space-between;
+
+         } 
+         
+         .box1 {
+            grid-column: span 2;
+         }
+
+         .box2 {
+            grid-column: span 2;
+         }
+
+            
+    
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+    </div>
+    <nav>
+        <a href=""class="item">Home</a>
+        <a href=""class="item">About</a>
+        <a href=""class="item">contact</a>
+    </nav>
+    
+</body>
+</html>

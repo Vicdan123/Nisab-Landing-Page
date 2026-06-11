@@ -1,0 +1,179 @@
+/* RESET */
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* BODY */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f7fb;
+  color: #222;
+}
+
+/* NAV BAR */
+.nav-bar {
+  color: #0d1b2a;
+  padding: 20px 8% 10px;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  color: white;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+
+.nav-links a:hover {
+  color: #00b4d8;
+}
+/* BTN, BTN OUTLINE */
+.btn {
+  background: #00b4d8;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
+.btn:hover {
+  background: #0056c7;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid black;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* HERO */
+.hero {
+ /* background-image: url(IMAGES/Background.jpg); */
+ /* background-size: contain; */
+ /* background-color: linear-gradient,(rgba(0, 0, 0, 0.6) rgba(13, 245, 4, 0.6)) */
+ background: url("https://images.unsplash.com/photo-1580476262798-bddd9f4b7369.jpeg");
+ background-size: cover;
+ backgroud-position:center;
+ text-color: #fff;
+ text-align: center;
+ padding: 120px 10px;
+}
+
+.hero h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.hero div {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.hero-features {
+  display: grid;
+  grid-template-columns: repeat(4 1fr);
+  gap: 20px;
+}
+.hero-features h3 {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+/* ABOUT SECTION */
+.about {
+  padding: 80px 10x;
+  text-align: center;
+}
+.about h2{
+  margin-bottom: 2opx;
+  font-size: 40px;
+
+}
+/* TRACK */
+.tracks{
+  padding: 80px 10px;
+}
+
+.tracks h2 {
+text-align: center;
+margin-bottom: 50px;
+font-size: 40px;
+}
+
+.tracks-container{
+  display: grid;
+  grid-template-columns: repeat(3 1fr);
+  gap: 25px;
+}
+
+.card{
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-hover {
+transform: translateY(-10px);
+}
+
+/* BENEFIT SECTION */
+.benefit {
+  background: #222;
+  color: white;
+  padding: 80px 10px;
+  /* text-align: center; */
+}
+
+.benefit h2{
+  margin-bottom: 20px;
+
+}
+
+
+.benefit-ul{
+  padding-left: 20px;
+}
+
+/* FOOTER */
+
+.footer{
+  background: #111;
+  color: #fff;
+  padding: 60px 10px;
+}
+
+.footer-grid{
+display: grid;
+grid-template-columns: repeat(3 1fr);
+gap: 60px;
+}
+
+/* COPYRIGHT */
+.copyright {
+  margin-top: 40px;
+  text-align: center;
+}
